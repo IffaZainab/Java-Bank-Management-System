@@ -204,8 +204,8 @@ public class OpenAccountPage extends JFrame {
     private void sendEmail(String toEmail, String name, String accountNo,
                            String username, String balance) {
 
-        final String fromEmail = "mibank.app@gmail.com";
-        final String password = "qkub jekj yash vgia";
+        final String fromEmail = "yourbankemail@gmail.com"; //your bank email
+        final String password = "APP_PASSWORD_HERE"; //password
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
