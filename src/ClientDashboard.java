@@ -450,7 +450,7 @@ public class ClientDashboard extends JFrame {
             });
 
             Message m = new MimeMessage(s);
-            m.setFrom(new InternetAddress("mibank.app@gmail.com"));
+            m.setFrom(new InternetAddress("yourbankemail@gmail.com"));
             m.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse(email));
 
@@ -503,12 +503,12 @@ public class ClientDashboard extends JFrame {
             Session s = Session.getInstance(p, new Authenticator() {
                 protected PasswordAuthentication getPasswordAuthentication() {
                     return new PasswordAuthentication(
-                            "mibank.app@gmail.com", "qkub jekj yash vgia");
+                            "yourbankemail@gmail.com", "APP_PASSWORD_HERE");
                 }
             });
 
             Message m = new MimeMessage(s);
-            m.setFrom(new InternetAddress("mibank.app@gmail.com"));
+            m.setFrom(new InternetAddress("yourbankemail@gmail.com"));
             m.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse(rEmail));
 
