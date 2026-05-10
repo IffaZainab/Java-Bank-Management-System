@@ -445,7 +445,7 @@ public class ClientDashboard extends JFrame {
             Session s = Session.getInstance(p, new Authenticator() {
                 protected PasswordAuthentication getPasswordAuthentication() {
                     return new PasswordAuthentication(
-                            "mibank.app@gmail.com", "qkub jekj yash vgia");
+                            "yourbankemail@gmail.com", "APP_PASSWORD_HERE");
                 }
             });
 
